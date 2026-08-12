@@ -1,0 +1,5 @@
+﻿Training Phase,Mean Score,TD Loss (MSE),Balance Status
+Phase 1 (Ep 1-10),14.25 ± 2.10,0.8421,Initial Falling
+Phase 2 (Ep 11-20),68.40 ± 5.30,0.3120,Refining Control
+Phase 3 (Ep 21-30),152.10 ± 8.20,0.0945,Nearing Solved
+Phase 4 (Ep 31-40),198.50 ± 1.50,0.0120,Optimal Solved State

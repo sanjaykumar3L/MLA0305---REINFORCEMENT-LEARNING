@@ -1,0 +1,5 @@
+﻿Architecture,Loss Function / Mechanism,Description
+Actor Policy Loss,"L_actor = -log π(a|s) A(s,a) - β H(π)",Policy gradient update
+Critic Value Loss,L_critic = 0.5 (R + γ V(s') - V(s))²,Baseline value error
+A2C Barrier Sync,Synchronous Master Step,GPU Batch Scalability
+A3C Thread Update,Asynchronous Local Gradient Push,CPU Thread Efficiency

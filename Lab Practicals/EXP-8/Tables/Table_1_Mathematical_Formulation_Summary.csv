@@ -1,0 +1,5 @@
+﻿Strategy,Selection Rule Formulation,Regret Bound Class
+ε-Greedy,P(a) = 1-ε + ε/|A| if a=argmax Q,Linear Regret O(t)
+UCB1,A_t = argmax [Q_t(a) + c √(ln t / N_t(a))],Logarithmic Regret O(ln t)
+Softmax (Boltzmann),P(a) = exp(Q(a)/τ) / ∑ exp(Q(b)/τ),Sub-linear Regret
+Thompson Sampling,"θ_a ~ Beta(α_a, β_a) → A_t = argmax θ_a",Optimal Logarithmic Regret

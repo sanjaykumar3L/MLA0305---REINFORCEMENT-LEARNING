@@ -1,0 +1,6 @@
+﻿DQN Component,Config Value / Math,Role
+Q-Network Architecture,"FC(64, ReLU) → FC(64, ReLU) → Linear(2)",Function approximator
+Replay Memory Size |𝒟|,"10,000 Transitions",De-correlating experiences
+Target Network Sync,"1,000 Steps",Stabilizing TD target
+Loss Function,L(θ) = 𝔼[(r + γ max Q' - Q)²],Minimizing TD error MSE
+Learning Rate (α),0.001 (Adam),Gradient step size

@@ -1,0 +1,5 @@
+﻿Variant Name,Key Architectural Formulation,Primary Advantage
+Standard DQN,"Y = R + γ max Q(S',a; θ⁻)",Baseline Deep RL
+Double DQN (DDQN),"Y = R + γ Q(S', argmax Q(S',a;θ); θ⁻)",Eliminates Q-Overestimation Bias
+Dueling DQN,"Q(s,a) = V(s) + [A(s,a) - mean A]",Decouples State & Advantage
+Dueling DDQN + PER,"P(i) ∝ |δ_i|^α, w_i = (N P(i))^{-β}",Top Sample Efficiency & Fast Convergence

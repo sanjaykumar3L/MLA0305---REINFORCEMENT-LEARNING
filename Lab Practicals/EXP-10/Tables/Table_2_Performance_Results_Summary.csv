@@ -1,0 +1,5 @@
+﻿DQN Variant,Mean Final Score,TD Error Variance,Convergence Speed
+Standard DQN,165.20 ± 12.4,0.4851,38 Episodes
+Double DQN,188.40 ± 5.2,0.1240,28 Episodes
+Dueling DQN,192.10 ± 4.1,0.0985,24 Episodes
+Dueling DDQN + PER,199.80 ± 0.2,0.0152,16 Episodes

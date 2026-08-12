@@ -1,0 +1,6 @@
+﻿Strategy Name,Final Step Reward,% Optimal Action Selection,Cumulative Regret
+ε-Greedy (ε=0.01),1.24 ± 0.05,35.2%,452.1
+ε-Greedy (ε=0.10),1.42 ± 0.04,78.4%,215.4
+UCB1 (c=2.0),1.78 ± 0.02,91.2%,48.2
+Softmax (τ=0.5),1.65 ± 0.03,84.5%,98.5
+Thompson Sampling,1.84 ± 0.01,95.8%,32.1

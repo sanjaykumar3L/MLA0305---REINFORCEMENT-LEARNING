@@ -1,0 +1,4 @@
+﻿Architecture,Processing Throughput (FPS),Mean Final Score,Wall-Clock Training Time
+Single-Worker A2C,185 FPS,182.40 ± 8.4,145.2 sec
+8-Worker A2C (GPU Synchronous),"1,450 FPS",199.50 ± 0.5,24.8 sec
+8-Worker A3C (CPU Asynchronous),"1,820 FPS",196.20 ± 2.1,19.5 sec

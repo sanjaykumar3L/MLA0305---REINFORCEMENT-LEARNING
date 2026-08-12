@@ -1,0 +1,3 @@
+﻿PG Variant,Objective Gradient Formulation,Variance Reduction Percentage
+Standard REINFORCE,∇ J(θ) = 𝔼_π [∑ ∇_θ log π_θ(a_t|s_t) G_t],0.0% Baseline
+REINFORCE with Baseline,∇ J(θ) = 𝔼_π [∑ ∇_θ log π_θ(a_t|s_t) (G_t - b(s_t))],81.3% Variance Reduction with Baseline
