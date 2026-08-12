@@ -1,0 +1,5 @@
+﻿Sensor Noise Level σ,RL Policy Retention (%),Static Rule Score,Cost Savings ($/MWh)
+σ = 0.00 (Clean),100.0%,62.4%,$45.20 / MWh
+σ = 0.05 (Low Noise),98.5%,61.8%,$43.80 / MWh
+σ = 0.10 (Med Noise),94.2%,58.4%,$41.20 / MWh
+σ = 0.20 (High Noise),88.5%,52.1%,$37.50 / MWh

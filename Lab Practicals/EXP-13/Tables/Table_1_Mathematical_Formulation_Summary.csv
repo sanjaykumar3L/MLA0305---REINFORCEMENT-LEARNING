@@ -1,0 +1,4 @@
+﻿Algorithm,Core Objective Formulation,Constraint / Regularizer
+PPO (Clipping),"L^CLIP(θ) = 𝔼 [min(r_t A_t, clip(r_t, 1-ε, 1+ε) A_t)]",PPO Ratio Clipping (ε=0.2)
+TRPO (Trust Region),max 𝔼 [r_t A_t] s.t. D_KL(π_old || π_θ) ≤ δ,Hard KL Constraint (δ=0.01)
+DDPG (Deterministic),"∇_θ J = 𝔼 [∇_a Q(s,a; φ) ∇_θ μ(s; θ)]",OU Exploration Noise 𝒩_t

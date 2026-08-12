@@ -1,0 +1,5 @@
+﻿Algorithm,Mean Final Score,Sample Efficiency,Wall-Clock Economy
+PPO,199.80 ± 0.2,High,Top Economy
+TRPO,198.40 ± 0.8,Very High,Slow (Hessian Matrix)
+DDPG,192.50 ± 3.4,Medium,Fast
+Standard A2C,182.10 ± 5.2,Medium,Fast

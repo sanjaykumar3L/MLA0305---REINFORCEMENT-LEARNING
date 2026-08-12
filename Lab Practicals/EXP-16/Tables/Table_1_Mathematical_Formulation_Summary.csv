@@ -1,0 +1,5 @@
+﻿Application Component,Specification / Math Formulation,Purpose
+6D Industrial State Vector,"[Demand, Solar, Wind, Grid Load, Battery, Tariff]",SmartGrid system state
+4 Control Dispatch Actions,"[Grid Import, Battery Charge, Discharge, Shed]",Control actuation space
+Shaped Reward Function,R = R_{raw} - λ · Penalty_{safety},Operational cost & safety penalty
+Sensor Noise Perturbation σ,"s_observed = s_true + 𝒩(0, σ^2)",Robustness evaluation under noise

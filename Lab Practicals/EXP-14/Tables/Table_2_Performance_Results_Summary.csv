@@ -1,0 +1,5 @@
+﻿Planning Rollouts N,Real Steps to Solve,Model MSE Loss,Speedup Multiplier
+N = 0 (Pure Model-Free),"4,520 Steps",N/A,1.00x Baseline
+N = 5 (Low Planning),"1,840 Steps",0.0451,2.45x Speedup
+N = 10 (Med Planning),"1,250 Steps",0.0124,3.61x Speedup
+N = 20 (Dyna-Q Planning),"1,025 Steps",0.0085,4.40x Speedup

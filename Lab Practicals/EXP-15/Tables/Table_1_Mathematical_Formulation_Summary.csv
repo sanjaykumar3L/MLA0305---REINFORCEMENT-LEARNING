@@ -1,0 +1,4 @@
+﻿Framework / Model,Key Formulation,Description
+Independent Q-Learning (IQL),"Q_i(s,a_i) ← Q_i + α [r_i + γ max Q_i' - Q_i]",Multi-agent independent updates
+POMDP Model,"⟨S, A, P, R, Ω, O, γ⟩",Partially observable state space
+LSTM Recurrent Policy,"h_t, c_t = LSTM(o_t, h_{t-1}, c_{t-1})",Recurrent memory belief state tracking

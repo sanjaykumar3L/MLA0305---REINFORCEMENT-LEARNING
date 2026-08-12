@@ -1,0 +1,5 @@
+﻿Model Component,Loss / Update Rule Formulation,Description
+"Dynamics Prediction Model P_φ(s,a)","L_{dyn} = ||s' - P_φ(s,a)||^2",World transition dynamics model
+"Reward Model R_ψ(s,a)","L_{rew} = ||r - R_ψ(s,a)||^2",Environment reward function model
+Synthetic Rollout Planning (N),Execute N planning updates per real step,Dyna-Q background planning
+Sample Economy Multiplier (η),η = Real Steps Saved / Total Steps,Model-based sample efficiency speedup

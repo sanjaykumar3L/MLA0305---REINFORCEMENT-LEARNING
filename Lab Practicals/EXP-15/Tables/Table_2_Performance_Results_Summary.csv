@@ -1,0 +1,4 @@
+﻿Observation Level,Mean Joint Return,Belief Entropy H(b),Status
+Full State (Standard MDP),198.50 ± 1.2,0.00 (Perfect Information),Fully Solved
+Partial State (Tabular Baseline),84.20 ± 15.4,1.45 (High Ambiguity),Severe Degradation
+Partial State (LSTM Recurrent Policy),192.40 ± 2.8,0.12 (Reconstructed State),Effective Memory Mitigation
