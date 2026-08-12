@@ -1,0 +1,3 @@
+﻿TD Algorithm,Update Rule Formulation,Target Selection Type,Path Safety Preference
+On-Policy SARSA,"Q(s,a) ← Q(s,a) + α [r + γ Q(s',a') - Q(s,a)]",Sampled Action under ε-Greedy Policy,Conservative Safe Route (Avoids Cliff)
+Off-Policy Q-Learning,"Q(s,a) ← Q(s,a) + α [r + γ max_a Q(s',a) - Q(s,a)]",Greedy Maximizing Action,Optimal Edge Route (High Cliff Risk)

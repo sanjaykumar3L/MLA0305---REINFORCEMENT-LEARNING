@@ -1,0 +1,8 @@
+﻿Hyperparameter / Metric,Config Value / Result
+Environment Model,5-State 3-Action MDP
+State Count |S|,5 States (S1 to S5)
+Action Count |A|,"3 Actions (A0, A1, A2)"
+Discount Factor (γ),0.99
+Convergence Threshold (θ),1e-6
+Value Iteration Sweeps,25 Sweeps
+Optimal Max Value V*(S1),9.8542

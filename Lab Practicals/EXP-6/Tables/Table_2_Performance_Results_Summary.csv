@@ -1,0 +1,5 @@
+﻿Step Horizon n / λ,Final RMSE,Convergence Time (ms),Optimal Verdict
+n = 1 (1-Step TD),0.1425,12.4 ms,Sub-optimal (High Bias)
+n = 4 (Multi-Step),0.0412,18.2 ms,Optimal Finite Horizon
+n = 16 (High Horizon),0.0895,45.1 ms,High Variance Penalty
+TD(λ=0.8) Eligibility Trace,0.0385,24.8 ms,Top Overall Accuracy

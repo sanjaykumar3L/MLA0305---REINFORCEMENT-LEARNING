@@ -1,0 +1,5 @@
+﻿Evaluation Phase,SARSA Mean Reward,Q-Learning Mean Reward,Cliff Fall Occurrences
+Phase 1 (Ep 1-10),-85.40 ± 12.1,-145.20 ± 25.4,12 Falls
+Phase 2 (Ep 11-20),-32.10 ± 4.2,-65.30 ± 15.2,5 Falls
+Phase 3 (Ep 21-30),-21.50 ± 2.1,-42.80 ± 8.4,2 Falls
+Phase 4 (Ep 31-40),-19.20 ± 1.1,-38.40 ± 5.2,0 Falls

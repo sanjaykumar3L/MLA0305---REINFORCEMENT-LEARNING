@@ -1,0 +1,5 @@
+﻿Method,Return Target Formulation,Bias-Variance Balance
+1-Step TD,G_{t:t+1} = R_{t+1} + γ V(S_{t+1}),"High Bias, Low Variance"
+n-Step TD (n=4),G_{t:t+n} = ∑ γ^k R_{t+k+1} + γ^n V(S_{t+n}),Optimal Balanced Horizon
+TD(λ) (λ=0.8),G_t^λ = (1-λ) ∑ λ^{n-1} G_{t:t+n},Smooth Exponential Blend
+Monte Carlo (n=∞),G_t = ∑ γ^k R_{t+k+1},"Zero Bias, High Variance"

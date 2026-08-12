@@ -1,0 +1,8 @@
+﻿MDP Term / Notation,Exact Math Formulation,Theoretical Role
+State Space (S),S ∈ ℝ^d,Environmental configuration domain
+Action Space (A),a ∈ A(s),Agent control decision domain
+"Transition Prob P(s'|s,a)","P(s'|s,a) = ℙ(S_{t+1}=s' | S_t=s, A_t=a)",Markovian transition dynamics
+"Expected Reward R(s,a)","R(s,a) = 𝔼[R_{t+1} | S_t=s, A_t=a]",Scalar reward signal mapping
+Discount Factor (γ),"γ ∈ [0, 1)",Temporal reward discounting
+State Value V^π(s),V^π(s) = 𝔼_π[∑ γ^k R_{t+k+1} | S_t=s],Long-term value of state s
+"Action Value Q^π(s,a)","Q^π(s,a) = 𝔼_π[∑ γ^k R_{t+k+1} | S_t=s, A_t=a]",Long-term value of taking action a in state s

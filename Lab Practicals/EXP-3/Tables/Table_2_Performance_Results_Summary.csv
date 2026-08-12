@@ -1,0 +1,17 @@
+﻿Grid State,Policy Action,Converged Value V*(s)
+S1,R,0.0
+S2,R,-1.0
+S3,R,-2.0
+S4,D,-3.0
+S5,D,-1.0
+S6,D,-2.0
+S7,D,-3.0
+S8,D,-2.0
+S9,R,-2.0
+S10,R,-3.0
+S11,D,-2.0
+S12,D,-1.0
+S13,R,-3.0
+S14,R,-2.0
+S15,R,-1.0
+S16,GOAL,0.0

@@ -1,0 +1,6 @@
+﻿MC Hyperparameter / Term,Config Value / Math,Theoretical Role
+Environment,Gymnasium Blackjack-v1,Card game benchmark
+Evaluation Type,First-Visit & Constant-α,Unbiased Return Averaging
+Tracking Learning Rate (α),0.01,Non-stationary tracking
+Discount Factor (γ),1.0,Undiscounted episodic return
+Exploration Schedule,ε-Greedy (1.0 → 0.01),Exploration-exploitation balance

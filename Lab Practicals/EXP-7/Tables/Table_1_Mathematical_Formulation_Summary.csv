@@ -1,0 +1,5 @@
+﻿Component,Exact Math / Config,Description
+State Vector (s),"[Position x, Velocity v] ∈ [-1.2, 0.6] × [-0.07, 0.07]",Continuous MountainCar state space
+Tile Coding Grids,8 Overlapping Tilings (8x8 Grid),Multi-grid discretization
+Feature Vector Dimension,"512 Binary Features x(s,a)",Sparse binary feature representation
+Semi-Gradient Update Rule,"w ← w + α [U_t - Q_hat(s,a,w)] x(s,a)",Linear function approximation update

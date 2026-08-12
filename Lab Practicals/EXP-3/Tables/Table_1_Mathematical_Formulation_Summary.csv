@@ -1,0 +1,6 @@
+﻿DP Term,Exact Math Formulation,Theoretical Role
+Bellman Expectation Eq,"V^π(s) = ∑_a π(a|s) ∑_{s',r} p(s',r|s,a)[r + γ V^π(s')]",Value under arbitrary policy π
+Bellman Optimality Eq,"V*(s) = max_a ∑_{s',r} p(s',r|s,a)[r + γ V*(s')]",Optimal value upper bound
+Policy Evaluation Sweep,"V_{k+1}(s) ← ∑_a π(a|s) ∑_{s',r} p(s',r|s,a)[r + γ V_k(s')]",Iterative evaluation sweep
+Policy Improvement Step,"π'(s) = argmax_a ∑_{s',r} p(s',r|s,a)[r + γ V(s')]",Greedy policy refinement
+Convergence Tolerance,max_s |V_{k+1}(s) - V_k(s)| < θ_{tol},Termination stopping threshold
