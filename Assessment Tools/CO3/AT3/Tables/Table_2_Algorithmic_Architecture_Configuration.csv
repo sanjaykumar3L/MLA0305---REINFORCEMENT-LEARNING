@@ -1,0 +1,8 @@
+Component / Setting,PPO (Ratio Clipping),TRPO (KL Constraint),DDPG (Deterministic PG)
+Objective Function Formula,"L^CLIP = 𝔼[min(r_t A_t, clip(r_t, 1-ε, 1+ε) A_t)]",L^TRPO = 𝔼[r_t A_t] s.t. D_KL ≤ δ,"∇J = 𝔼[∇_a Q(s,a) ∇_θ μ(s)]"
+Trust Region / Constraint,"Ratio Clipping Bounds [0.8, 1.2]",Hard KL Constraint D_KL ≤ 0.01,Target Network Soft Updates (τ)
+Policy Update Rule,First-Order Stochastic Gradient,Second-Order Conjugate Gradient,Deterministic Gradient Step
+Exploration Mechanism,Entropy Bonus H(π),Entropy Regularization,Ornstein-Uhlenbeck (OU) Noise
+Sample Efficiency,High Sample Efficiency,Very High Sample Efficiency,Medium Sample Efficiency
+Wall-Clock Time Economy,Top Economy (18.5 sec),Slow (Hessian 85.4 sec),Fast (32.1 sec)
+Target Domain Purpose,Stable Dispatch Control,Strict Safety Assurance,Continuous Generator Output

@@ -1,0 +1,4 @@
+Algorithm Variant,Mean Final Score,Processing Throughput (FPS),Wall-Clock Time (s),Synchronization Overhead,Welch t-test p-value
+A2C (Synchronous GPU),199.50 ± 0.50,"1,450 FPS (GPU Batch)",24.8 sec,Medium (Barrier Sync),p < 0.001 (Statistically Significant)
+A3C (Asynchronous CPU),196.20 ± 2.10,"1,820 FPS (CPU Threading)",19.5 sec,Zero (Asynchronous Push),p = 0.012
+Static Shortest-Path Heuristic,110.40 ± 5.20,"4,500 FPS (Fixed Rule)",0.4 sec,None,Reference Baseline

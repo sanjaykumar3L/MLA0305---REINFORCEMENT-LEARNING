@@ -1,0 +1,4 @@
+Algorithm Variant,Mean Final Return,Return Variance Reduction (%),Convergence Episode,Throughput (FPS),Wall-Clock Time (s),Welch t-test p-value
+VPG (with Baseline),195.42 ± 3.12,81.3% Variance Reduction,22 Episodes,"1,250 FPS",14.2 sec,p < 0.001 (Statistically Significant)
+REINFORCE (No Baseline),152.18 ± 14.85,0.0% (Unreduced Baseline),45 Episodes (High Oscillation),"1,380 FPS",12.8 sec,p = 0.042
+Static Heuristic Baseline,98.50 ± 2.10,N/A (Fixed Strategy),N/A (No Learning),"5,000 FPS",0.5 sec,Reference Baseline

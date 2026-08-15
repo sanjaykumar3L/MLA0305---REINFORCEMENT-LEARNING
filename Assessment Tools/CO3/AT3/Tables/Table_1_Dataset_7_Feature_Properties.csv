@@ -1,0 +1,8 @@
+Feature Name,Unit,Valid Range,Mean Value,Std Dev,25% Q1,50% Median,75% Q3,Skewness,Target Correlation
+Importance_Sampling_Ratio,ratio,"[0.68, 1.32]",1.004,0.191,0.819,1.004,1.160,-0.055,-0.090
+Policy_KL_Divergence,nats,"[0.0005, 0.025]",0.012,0.007,0.008,0.012,0.018,0.074,-0.037
+Clipping_Bound_Indicator,binary,"[0, 1]",0.250,0.435,0.000,0.000,0.250,1.172,-0.037
+Surrogate_Objective_Loss,loss,"[-0.8, 0.8]",0.035,0.481,-0.323,0.055,0.500,-0.089,0.087
+Entropy_Exploration_Bonus,nats,"[0.02, 0.35]",0.193,0.095,0.117,0.210,0.269,-0.196,-0.141
+Generalized_Advantage_GAE,advantage,"[-2.5, 4.8]",1.481,2.149,-0.233,1.735,3.365,-0.255,0.041
+Episodic_Net_Cost_Savings,USD ($),"[$15, $220]",122.884,59.325,82.608,118.850,169.715,-0.073,1.000

@@ -1,0 +1,8 @@
+Feature Name,Unit,Valid Range,Mean Value,Std Dev,25% Q1,50% Median,75% Q3,Skewness,Target Correlation
+Network_Latency,ms,"[5, 120]",64.52,33.67,34.96,66.25,90.31,-0.01,0.09
+Buffer_Occupancy,%,"[10, 95]",53.58,26.25,28.27,52.19,76.43,-0.03,0.05
+Packet_Loss_Rate,%,"[0.1, 4.5]",2.29,1.28,1.25,2.39,3.31,-0.04,-0.01
+CPU_Utilization,%,"[15, 98]",54.95,24.70,30.72,53.27,74.90,0.09,-0.08
+Bandwidth_Demand,Mbps,"[10, 100]",58.20,26.20,36.75,59.74,82.60,-0.12,-0.22
+Jitter_Queue_Delay,ms,"[1, 40]",20.35,10.79,10.75,20.48,28.41,-0.05,-0.04
+Quality_Score_QoS,score,"[20, 99]",60.81,21.70,44.57,62.32,77.21,-0.09,1.00

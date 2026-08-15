@@ -1,0 +1,8 @@
+Feature Name,Unit,Valid Range,Mean Value,Std Dev,25% Q1,50% Median,75% Q3,Skewness,Target Correlation
+Traffic_Density,veh/km,"[10, 150]",74.53,39.57,37.70,73.73,109.12,0.11,0.05
+Queue_Length,vehicles,"[5, 100]",49.81,26.38,26.78,50.51,73.96,0.06,-0.12
+Waiting_Time,seconds,"[10, 180]",95.40,48.42,55.69,102.82,134.14,-0.17,0.08
+Arrival_Rate,veh/min,"[5, 60]",31.03,15.55,18.23,32.02,44.00,-0.09,-0.02
+Average_Speed,km/h,"[10, 75]",43.54,20.71,27.16,44.15,61.80,-0.06,0.25
+Outflow_Rate,veh/min,"[8, 70]",39.52,17.83,23.33,39.70,56.67,-0.07,-0.03
+Congestion_Index,% index,"[0, 100]",45.14,24.86,23.74,41.05,61.97,0.41,1.00

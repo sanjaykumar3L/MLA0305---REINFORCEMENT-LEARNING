@@ -1,0 +1,8 @@
+Component / Setting,Vanilla Policy Gradient (VPG),REINFORCE (No Baseline),Theoretical Impact
+State Space Dimension,ℝ⁷ Continuous State,ℝ⁷ Continuous State,Input feature mapping
+Action Space,Discrete (2 Actions),Discrete (2 Actions),Phase duration selection
+Policy Network Architecture,"FC(64, ReLU) → Softmax","FC(64, ReLU) → Softmax",Policy parametrization
+Baseline Critic Architecture,"FC(64, ReLU) → Linear V(s)",None (No Baseline),State value estimation
+Policy Learning Rate (α),0.005 (Adam),0.005 (Adam),Gradient ascent step size
+Discount Factor (γ),0.99,0.99,Temporal reward discounting
+Variance Reduction Formula,∇J = 𝔼[∇log π (G_t - V(s))],∇J = 𝔼[∇log π G_t],Reduces return variance by 81.3%

@@ -1,0 +1,8 @@
+Component / Setting,A2C (Synchronous GPU),A3C (Asynchronous CPU),Theoretical Impact
+State Space Dimension,ℝ⁷ Continuous State,ℝ⁷ Continuous State,Network state representation
+Action Space,Discrete (4 Routes),Discrete (4 Routes),Optimal routing path selection
+Actor Policy Architecture,"FC(64, ReLU) → Softmax","FC(64, ReLU) → Softmax",Policy parametrization
+Critic Value Architecture,"FC(64, ReLU) → Linear V(s)","FC(64, ReLU) → Linear V(s)",State value baseline model
+Worker Parallelization,8 Parallel Workers,8 CPU Threads,Accelerates experience sampling
+Synchronization Mechanism,Synchronous Master Step,Asynchronous Lock-Free Push,Eliminates GPU wait barriers
+Advantage Target Formula,"A(s,a) = R + γ V(s') - V(s)","A(s,a) = R + γ V(s') - V(s)",Reduces return variance

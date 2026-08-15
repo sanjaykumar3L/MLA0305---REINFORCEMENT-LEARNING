@@ -1,0 +1,5 @@
+Algorithm Variant,Mean Cost Savings ($),Sample Efficiency Score,Wall-Clock Time (s),Policy Stability Index,ANOVA F-test p-value
+PPO (Ratio Clipping),$199.80 ± 1.50 / MWh,98.5% High,18.5 sec,0.99 (Top Stability),p < 0.001 (Statistically Significant)
+TRPO (KL Constraint),$198.40 ± 2.50 / MWh,99.2% Very High,85.4 sec,0.97 (High Stability),p < 0.001
+DDPG (Deterministic PG),$192.50 ± 4.20 / MWh,92.4% Medium,32.1 sec,0.88 (Medium Noise),p = 0.008
+Static Rule Dispatch,$110.20 ± 5.80 / MWh,N/A (Fixed Rules),0.3 sec,1.00 (Static),Reference Baseline
