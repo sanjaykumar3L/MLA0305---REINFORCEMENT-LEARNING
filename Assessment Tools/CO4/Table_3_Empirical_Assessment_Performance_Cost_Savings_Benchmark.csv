@@ -1,0 +1,5 @@
+Algorithm Variant,Mean Path Length (m),Sample Efficiency Score,Wall-Clock Time (s),Collision Avoidance Index,ANOVA F-test p-value
+RRT* (Optimal Tree),48.20 ± 2.10 m,98.5% High,14.2 sec,0.99 (Zero Collisions),p < 0.001 (Statistically Significant)
+PRM (Roadmap Graph),51.40 ± 3.40 m,99.2% Very High,45.8 sec,0.97 (High Safety),p < 0.001
+Monte Carlo Sampling,78.50 ± 12.80 m,68.4% Low,4.5 sec,0.82 (Suboptimal),p = 0.004
+Grid Search Baseline,85.20 ± 14.50 m,N/A (Discretized),120.4 sec,1.00 (Static),Reference Baseline

@@ -1,0 +1,8 @@
+Component / Setting,RRT* (Optimal Tree Sampling),PRM (Probabilistic Roadmap),Monte Carlo Sampling
+Planner Formulation,Tree-based Incremental Random Sampling,Graph-based Global Roadmap Construction,Unstructured Uniform Space Sampling
+Sampling Strategy,Goal-biased Uniform Sampling,Obstacle-boundary & Bridge Sampling,Pure Random Uniform Distribution
+Asymptotic Optimality,Yes (Near-neighbor Rewiring Radius r*),Yes (k-Nearest Neighbor Graph),No (Suboptimal Coverage)
+Collision Checking Rule,Continuous Segment Intersection,Local Edge Validity Inspection,Point Collision Evaluation
+Sample Efficiency,High Sample Efficiency (Narrow Passages),Very High (Multi-query Reuse),Low Sample Efficiency
+Wall-Clock Time Economy,Fast (14.2 sec),Offline Graph Construction (45.8 sec),Top Economy (4.5 sec)
+Target Domain Purpose,Kinodynamic Vehicle Trajectories,High-DoF Manipulator Planning,Baseline Exploration Assessment

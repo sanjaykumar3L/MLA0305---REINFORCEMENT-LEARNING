@@ -1,0 +1,8 @@
+Feature Name,Unit,Valid Range,Mean Value,Std Dev,25% Q1,50% Median,75% Q3,Skewness,Target Correlation
+Sample_Point_X_Coord,m,"[0, 100]",47.018,29.749,19.320,46.414,73.020,0.113,0.048
+Sample_Point_Y_Coord,m,"[0, 100]",49.783,29.311,24.200,50.562,76.618,0.064,-0.116
+Obstacle_Clearance_Distance,m,"[0.2, 15]",7.860,4.343,4.298,8.526,11.335,-0.171,0.082
+Nearest_Neighbor_Distance,m,"[0.5, 25]",12.533,7.190,6.616,12.988,18.527,-0.091,-0.016
+Steering_Step_Size_Delta,m,"[0.1, 5.0]",2.629,1.561,1.393,2.674,4.005,-0.065,0.250
+Collision_Check_Latency_ms,ms,"[0.05, 4.5]",2.388,1.322,1.187,2.400,3.660,-0.067,-0.026
+Trajectory_Path_Length_m,m,"[12, 180]",84.507,44.914,45.854,77.112,114.905,0.407,1.000
